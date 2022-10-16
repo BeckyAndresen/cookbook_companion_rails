@@ -1,0 +1,51 @@
+pbj_bread:
+  recipe_id: 1
+  ingredient_id: 1
+
+pbj_pb:
+  recipe_id: 1
+  ingredient_id: 2
+
+pbj_jelly:
+  recipe_id: 1
+  ingredient_id: 3
+
+veggie_bread:
+  recipe_id: 2
+  ingredient_id: 1
+
+veggie_hummus:
+  recipe_id: 2
+  ingredient_id: 4
+
+veggie_tomato:
+  recipe_id: 2
+  ingredient_id: 5
+
+veggie_cucumber:
+  recipe_id: 2
+  ingredient_id: 6
+
+veggie_lettuce:
+  recipe_id: 2
+  ingredient_id: 7
+
+salad_tomato:
+  recipe_id: 3
+  ingredient_id: 5
+
+salad_cucumber:
+  recipe_id: 3
+  ingredient_id: 6
+
+salad_lettuce:
+  recipe_id: 3
+  ingredient_id: 7
+
+pb_bread:
+  recipe_id: 4
+  ingredient_id: 1
+
+pb_pb:
+  recipe_id: 4
+  ingredient_id: 2
