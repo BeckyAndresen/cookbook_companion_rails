@@ -61,6 +61,8 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
+  gem "rubocop", '~> 1.36', require: false
+  gem "rubocop-rails", '~> 2.16', require: false
   gem "selenium-webdriver"
   gem "webdrivers"
 end
