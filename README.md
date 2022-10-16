@@ -1,5 +1,15 @@
 # README
 
+## Development
+
+`bin/rails db:migrate RAILS_ENV=development`
+
+`bin/rails server`
+
+## Test
+
+`bin/rails test`
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
