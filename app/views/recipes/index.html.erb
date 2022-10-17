@@ -1,0 +1,10 @@
+<h1>Recipes</h1>
+
+<%= form_with url: root_path, method: :get do |form| %>
+    <%= form.collection_check_boxes :ingredients, Ingredient.order(:name), :id, :name %>
+    <%= form.submit "Search" %>
+<% end %>
+
+<% @recipes.each do |recipe| %>
+    <p><%= recipe.name %></p>
+<% end %>

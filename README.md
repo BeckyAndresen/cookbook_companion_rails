@@ -4,6 +4,8 @@
 
 `bin/rails db:migrate RAILS_ENV=development`
 
+`bin/rails db:seed`
+
 `bin/rails server`
 
 ## Test
