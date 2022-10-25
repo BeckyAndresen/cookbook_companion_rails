@@ -1,0 +1,21 @@
+fieldset {
+  border-width: 2px;
+  border-color: #c0bfbf;
+  border-style: solid;
+  border-radius: .25em;
+
+  padding: 1em;
+}
+
+input {
+  margin: .3em;
+}
+
+input[type=submit] {
+  padding: 12px 16px;
+  font-size: larger;
+}
+
+.ingredient-submit {
+  text-align: center;
+}

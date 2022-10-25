@@ -7,13 +7,12 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 bread = Ingredient.create(name: 'Bread')
-peanut_butter = Ingredient.create(name: 'Peanut Butter')
-jelly = Ingredient.create(name: 'Jelly')
-hummus = Ingredient.create(name: 'Hummus')
-tomato = Ingredient.create(name: 'Tomato')
 cucumber = Ingredient.create(name: 'Cucumber')
+hummus = Ingredient.create(name: 'Hummus')
+jelly = Ingredient.create(name: 'Jelly')
 lettuce = Ingredient.create(name: 'Lettuce')
-
+peanut_butter = Ingredient.create(name: 'Peanut Butter')
+tomato = Ingredient.create(name: 'Tomato')
 
 recipe1 = Recipe.create(name: 'Peanut Butter and Jelly Sandwich', page_number: 1)
 recipe1.ingredients << [bread, peanut_butter, jelly]
