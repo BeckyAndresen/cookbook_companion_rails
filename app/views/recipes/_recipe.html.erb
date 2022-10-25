@@ -1,0 +1,16 @@
+<div class="card__container">
+  <div class="card__header">
+    <h3><%= recipe.name %></h3>
+  </div>
+
+  <div class="card__body">
+    <p>Page <%= recipe.page_number %></p>
+
+    <h4>Ingredients</h4>
+    <ul>
+      <% recipe.ingredients.each do |ingredient| %>
+        <li><%= ingredient.name %></li>
+      <% end %>
+    </ul>
+  </div>
+</div>

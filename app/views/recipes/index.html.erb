@@ -1,15 +1,15 @@
 <h1>Cookbook Companion</h1>
 
 <%= field_set_tag "Select Ingredients for Recipe Search" do %>
-    <%= form_with url: root_path, method: :get do |form| %>
-        <%= form.collection_check_boxes :ingredients, Ingredient.order(:name), :id, :name %>
-        <%= form.submit "Search" %>
-    <% end %>
+  <%= form_with url: root_path, method: :get do |form| %>
+    <%= form.collection_check_boxes :ingredients, Ingredient.order(:name), :id, :name %>
+    <%= form.submit "Search" %>
+  <% end %>
 <% end %>
 
 <h2>Recipes</h2>
-<ul>
-    <% @recipes.each do |recipe| %>
-        <li><%= recipe.name %></li>
-    <% end %>
+<ul class="card-group">
+  <% @recipes.each do |recipe| %>
+    <li class="card"><%= render partial: "recipe", object: recipe %></li>
+  <% end %>
 </ul>

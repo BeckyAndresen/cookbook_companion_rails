@@ -1,0 +1,24 @@
+.card-group {
+  list-style: none;
+  padding-left: 0;
+
+  @media (min-width: 810px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+.card__container {
+  border-width: 2px;
+  border-color: #b0afaf;
+  border-style: solid;
+  border-radius: .25em;
+
+  height: 300px;
+  padding: .5em 1em 1em 1em;
+
+  @media (max-width: 810px) {
+    margin-bottom: 10px;
+  }
+}
