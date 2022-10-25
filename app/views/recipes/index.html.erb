@@ -16,8 +16,12 @@
 <% end %>
 
 <h2>Recipes</h2>
-<ul class="card-group">
-  <% @recipes.each do |recipe| %>
-    <li class="card"><%= render partial: "recipe", object: recipe %></li>
-  <% end %>
-</ul>
+<% if @recipes.empty? %>
+  <p>No recipes were found for the selected ingredients.</p>
+<% else %>
+    <ul class="card-group">
+    <% @recipes.each do |recipe| %>
+      <li class="card"><%= render partial: "recipe", object: recipe %></li>
+    <% end %>
+  </ul>
+<% end %>
