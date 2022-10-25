@@ -6,13 +6,13 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-bread = Ingredient.create(name: 'bread')
-peanut_butter = Ingredient.create(name: 'peanut butter')
-jelly = Ingredient.create(name: 'jelly')
-hummus = Ingredient.create(name: 'hummus')
-tomato = Ingredient.create(name: 'tomato')
-cucumber = Ingredient.create(name: 'cucumber')
-lettuce = Ingredient.create(name: 'lettuce')
+bread = Ingredient.create(name: 'Bread')
+peanut_butter = Ingredient.create(name: 'Peanut Butter')
+jelly = Ingredient.create(name: 'Jelly')
+hummus = Ingredient.create(name: 'Hummus')
+tomato = Ingredient.create(name: 'Tomato')
+cucumber = Ingredient.create(name: 'Cucumber')
+lettuce = Ingredient.create(name: 'Lettuce')
 
 
 recipe1 = Recipe.create(name: 'Peanut Butter and Jelly Sandwich', page_number: 1)
