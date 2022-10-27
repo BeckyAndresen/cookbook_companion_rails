@@ -3,6 +3,7 @@ The Cookbook Companion helps you figure out what recipes you can make with what 
 
 ## Dependencies
 * Ruby 3.0.2
+* SQLite3 3.37.2
 * Rails 7.0.4
 
 ## Development Setup
