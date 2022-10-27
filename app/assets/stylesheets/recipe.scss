@@ -15,11 +15,11 @@
   border-style: solid;
   border-radius: .25em;
 
-  height: 300px;
+  min-height: 315px;
   padding: .5em 1em 1em 1em;
 
   @media (max-width: 809px) {
-    height: fit-content;
+    min-height: fit-content;
     margin-bottom: 10px;
   }
 }
